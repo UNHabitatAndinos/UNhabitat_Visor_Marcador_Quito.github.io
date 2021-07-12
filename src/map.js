@@ -39,7 +39,7 @@ info.onAdd = function (map) {
 info.update = function (props) {
     this._div.innerHTML = (props ?
         'Parroquia ' + props.PARROQUIA + '<br />' + 
-        'Proyección población ' + props.Pob2020_Pr.toFixed(0)  + '<br />' +  '<br />' + 
+        'Proyección población 2020' + props.Pob2020_Pr.toFixed(0)  + '<br />' +  '<br />' + 
 
         '<b>Marcador Inclusión Urbana '  + props.INDICE_MAR.toFixed(0)  + ' %' + '</b>'+ '<br />' + '<br />' + 
 
@@ -155,14 +155,14 @@ var legends = {
     INDICE_MAR: {
         title: "Marcador potencial integración urbana",
         subtitle: "%", 
-        elem1: '<div><span  style= "color:#FCF9BB">▉</span>74 - 77</div>',
+        elem1: '<div><span  style= "color:#FCF9BB">▉</span>74 - 78</div>',
         elem2: '<div><span  style= "color:#FE9D6C">▉</span>71 - 73</div>', 
         elem3: '<div><span  style= "color:#CA3E72">▉</span>69 - 70</div>',
         elem4: '<div><span  style= "color:#862781">▉</span>67 - 68</div>',
-        elem5: '<div><span  style= "color:#2A115C">▉</span>59 - 66</div>',
+        elem5: '<div><span  style= "color:#2A115C">▉</span>58 - 66</div>',
         elem6: '',
         elem7: '',
-        elem8: "INEC",
+        elem8: "ONU Hábitat 2020 - Elaboración propia",
     },
 }
 
