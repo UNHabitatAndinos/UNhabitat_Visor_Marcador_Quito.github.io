@@ -162,7 +162,7 @@ var legends = {
         elem5: '<div><span  style= "color:#2A115C">▉</span>58 - 66</div>',
         elem6: '',
         elem7: '',
-        elem8: "ONU Hábitat 2020 - Elaboración propia",
+        elem8: "ONU-Habitat 2020 - Elaboración propia",
     },
 }
 
